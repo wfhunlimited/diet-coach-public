@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="{{ '/' | relative_url }}" class="logo">{{ site.title }}</a>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/privacy-policy' | relative_url }}">Privacy Policy</a></li>
+        <li><a href="{{ '/data-protection' | relative_url }}">Data Protection</a></li>
+        <li><a href="{{ '/terms-of-service' | relative_url }}">Terms of Service</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+    <p>
+      <a href="{{ '/privacy-policy' | relative_url }}">Privacy Policy</a> &middot;
+      <a href="{{ '/data-protection' | relative_url }}">Data Protection</a> &middot;
+      <a href="{{ '/terms-of-service' | relative_url }}">Terms of Service</a>
+    </p>
+  </footer>
+</body>
+</html>
