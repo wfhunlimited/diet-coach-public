@@ -3,44 +3,89 @@ title: Home
 description: "Diet Coach — Track calories, weight, and health metrics. Stay in budget, not in guilt."
 ---
 
-<div class="hero" markdown="0">
-  <h1>Diet Coach</h1>
-  <p class="tagline">Track calories, weight, and health metrics — stay in budget, not in guilt.</p>
-</div>
-
-Whether you're trying to lose weight, stabilise your blood sugar, or simply eat more mindfully, Diet Coach helps you build a daily habit that fits around real life — not the other way around.
-
-<div class="features" markdown="0">
-  <div class="feature">
-    <h3>Daily Calorie Tracking</h3>
-    <p>Log meals against a personalised daily budget, with quick-add favourites and a clear view of how much is left today.</p>
+<section class="hero" markdown="0">
+  <div class="hero-inner">
+    <span class="eyebrow"><span class="dot"></span>For everyday eaters</span>
+    <h1>Stay in budget, not in guilt.</h1>
+    <p class="tagline">Diet Coach helps you track calories, weight, and the metrics that matter — so a healthier day fits around real life, not the other way around.</p>
+    <div class="hero-actions">
+      <a href="https://play.google.com/store/apps/details?id=com.wfhunlimited.dietcoach" class="cta">
+        <span class="material-symbols-rounded">android</span>
+        Get it on Google Play
+      </a>
+      <a href="#features" class="btn btn-secondary">
+        See what's inside
+        <span class="material-symbols-rounded">arrow_downward</span>
+      </a>
+    </div>
   </div>
-  <div class="feature">
-    <h3>Flexible Weekly Budgets</h3>
-    <p>Set a different calorie target for each day of the week. Ideal for 5:2, weekday-only dieting, or easing off at weekends.</p>
+</section>
+
+<section class="features-section" id="features" markdown="0">
+  <header class="section-title">
+    <span class="overline">Features</span>
+    <h2>Built for the long, calm middle of a healthy habit.</h2>
+  </header>
+  <div class="features">
+    <article class="feature">
+      <div class="icon" aria-hidden="true"><span class="material-symbols-rounded">restaurant</span></div>
+      <h3>Daily calorie tracking</h3>
+      <p>Log meals against a personalised daily budget, with quick-add favourites and a clear view of how much is left today.</p>
+    </article>
+    <article class="feature">
+      <div class="icon" aria-hidden="true"><span class="material-symbols-rounded">calendar_month</span></div>
+      <h3>Flexible weekly budgets</h3>
+      <p>Set a different calorie target for each day of the week. Ideal for 5:2, weekday-only dieting, or easing off at weekends.</p>
+    </article>
+    <article class="feature">
+      <div class="icon" aria-hidden="true"><span class="material-symbols-rounded">monitoring</span></div>
+      <h3>Track what matters</h3>
+      <p>Weight, BMI, waist, and glucose — all in one place, with charts and trendlines that cut through the day-to-day noise.</p>
+    </article>
+    <article class="feature">
+      <div class="icon" aria-hidden="true"><span class="material-symbols-rounded">cloud_off</span></div>
+      <h3>Offline-first</h3>
+      <p>Works wherever you are. Sync is a quiet background convenience — never a dependency on signal or signup.</p>
+    </article>
+    <article class="feature">
+      <div class="icon" aria-hidden="true"><span class="material-symbols-rounded">insights</span></div>
+      <h3>Charts and heatmaps</h3>
+      <p>See progress at a glance — adherence heatmaps and trend lines that smooth out the wobbles of a normal week.</p>
+    </article>
+    <article class="feature">
+      <div class="icon" aria-hidden="true"><span class="material-symbols-rounded">favorite</span></div>
+      <h3>Supportive, never shaming</h3>
+      <p>Gentle nudges, kind language. Diet Coach is on your side on the days that don't go to plan.</p>
+    </article>
   </div>
-  <div class="feature">
-    <h3>Track What Matters</h3>
-    <p>Weight, BMI, waist, and glucose — all in one place, with charts and trendlines that cut through the day-to-day noise.</p>
+</section>
+
+<section class="bullets-section" markdown="0">
+  <header class="section-title">
+    <span class="overline">How it helps</span>
+    <h2>A daily habit that fits around real life.</h2>
+  </header>
+  <ul class="bullets">
+    <li><span class="check"><span class="material-symbols-rounded">check</span></span><span><strong>Plan</strong> a calorie budget that matches your lifestyle, day by day.</span></li>
+    <li><span class="check"><span class="material-symbols-rounded">check</span></span><span><strong>Log</strong> meals quickly with recent and favourite entries.</span></li>
+    <li><span class="check"><span class="material-symbols-rounded">check</span></span><span><strong>Track</strong> weight, BMI, waist, and glucose in one place.</span></li>
+    <li><span class="check"><span class="material-symbols-rounded">check</span></span><span><strong>See</strong> progress with clear charts and adherence heatmaps.</span></li>
+    <li><span class="check"><span class="material-symbols-rounded">check</span></span><span><strong>Stay motivated</strong> with supportive nudges — never shame.</span></li>
+    <li><span class="check"><span class="material-symbols-rounded">check</span></span><span><strong>Made for everyday eaters</strong> — not athletes chasing macros.</span></li>
+  </ul>
+</section>
+
+<section class="cta-section" markdown="0">
+  <div class="cta-card">
+    <h2>Start with a calmer day.</h2>
+    <p>Diet Coach is free to download. Plan your day, log a meal, and see where you land — without the noise.</p>
+    <a href="https://play.google.com/store/apps/details?id=com.wfhunlimited.dietcoach" class="cta">
+      <span class="material-symbols-rounded">android</span>
+      Get it on Google Play
+    </a>
   </div>
-</div>
-
-<p style="text-align:center">
-  <a href="https://play.google.com/store/apps/details?id=com.wfhunlimited.dietcoach" class="cta">Get it on Google Play</a>
-</p>
-
-## About Diet Coach
-
-Diet Coach is built for everyday people who want to improve their diet for a healthier life — not athletes chasing macros, and not clinical patients on prescribed meal plans. The app helps you:
-
-- **Plan** a calorie budget that matches your lifestyle, day by day
-- **Log** meals quickly with recent and favourite entries
-- **Track** weight, BMI, waist, and glucose in one place
-- **See** your progress with clear charts and adherence heatmaps
-- **Stay motivated** with supportive nudges — never shame
-
-Diet Coach is offline-first, so it works wherever you are. Sync is a background convenience, never a dependency.
+</section>
 
 ## Contact
 
-If you have questions, feedback, or need support, please reach out to us at **wfh-appstore-contact@googlegroups.com**.
+If you have questions, feedback, or need support, please reach out at **wfh-appstore-contact@googlegroups.com**.
