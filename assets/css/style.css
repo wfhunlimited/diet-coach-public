@@ -321,12 +321,12 @@ body {
 }
 .site-main li { margin-bottom: var(--space-2); line-height: var(--lh-loose); }
 
-.site-main a {
+.site-main a:not(.cta):not(.btn) {
   color: var(--primary);
   text-decoration: none;
   transition: color var(--dur-1) var(--ease-standard);
 }
-.site-main a:hover {
+.site-main a:not(.cta):not(.btn):hover {
   color: var(--primary-hover);
   text-decoration: underline;
   text-underline-offset: 3px;
