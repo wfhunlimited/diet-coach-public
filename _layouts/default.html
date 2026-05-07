@@ -6,6 +6,8 @@
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   <meta name="theme-color" content="#0891B2">
+  <link rel="icon" type="image/png" href="{{ '/assets/images/logo.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/logo.png' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=JetBrains+Mono:wght@400;500&display=swap">
@@ -17,7 +19,7 @@
     <nav class="site-nav" aria-label="Primary">
       <a href="{{ '/' | relative_url }}" class="brand">
         <span class="brand-mark" aria-hidden="true">
-          <span class="material-symbols-rounded">restaurant_menu</span>
+          <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="" class="brand-logo">
         </span>
         <span class="brand-name">{{ site.title }}</span>
       </a>
@@ -41,7 +43,7 @@
     <div class="footer-inner">
       <div class="footer-brand">
         <span class="brand-mark" aria-hidden="true">
-          <span class="material-symbols-rounded">restaurant_menu</span>
+          <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="" class="brand-logo">
         </span>
         <div>
           <p class="footer-title">{{ site.title }}</p>

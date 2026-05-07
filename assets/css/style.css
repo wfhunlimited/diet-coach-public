@@ -218,14 +218,20 @@ body {
   width: 36px;
   height: 36px;
   border-radius: 12px;
-  background: linear-gradient(135deg, var(--cyan-500), var(--mint-500));
-  color: #fff;
+  background: #fff;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(8, 145, 178, 0.25);
+  box-shadow: 0 4px 12px rgba(8, 145, 178, 0.18);
+  overflow: hidden;
 }
 .brand-mark .material-symbols-rounded { font-size: 22px; }
+.brand-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
 
 .brand-name { font-size: var(--fs-h4, 17px); }
 
