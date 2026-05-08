@@ -88,4 +88,4 @@ description: "Diet Coach — Track calories, weight, and health metrics. Stay in
 
 ## Contact
 
-If you have questions, feedback, or need support, please reach out at **wfh-appstore-contact@googlegroups.com**.
+If you have questions, feedback, or need support, please contact us at **wfh-appstore-contact@googlegroups.com**.
